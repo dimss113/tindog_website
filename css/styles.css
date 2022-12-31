@@ -1,0 +1,184 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+body{
+    font-family: 'Montserrat';
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    /* padding-bottom: 100px; */
+}
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button{
+    /* margin-top: 1.5rem; */
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+    /* 60% dari partentnya */
+    width: 22%;
+    transform: rotate(25deg);
+    /* padding-top: 30px; */
+    position: absolute;
+    right: 25%;   
+    /* z-index: 0; */
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonial-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:990px) {
+    .title-img{
+        /* 60% dari partentnya */
+        width: 50%;
+        transform: rotate(0deg);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* CTA section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
+
+.cta-container{
+    padding: 4rem;
+}
+
+
+/* Copyright section */
+#footer{
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.footer-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
